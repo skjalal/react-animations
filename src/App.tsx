@@ -14,10 +14,10 @@ function App() {
   const routes: RouteObject[] = [
     {
       path: "/",
-      element: <Navigate replace to="/react-animation" />,
+      element: <Navigate replace to="/react-animations" />,
     },
     {
-      path: "/react-animation",
+      path: "/react-animations",
       element: <Root />,
       children: [
         {

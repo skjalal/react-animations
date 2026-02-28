@@ -39,7 +39,9 @@ const ChallengeItem: FC<ChallengeItemProps> = ({
             </p>
           </div>
         </header>
-        <div className="challenge-item-details">
+        <div
+          className={`challenge-item-details ${isExpanded ? "expanded" : ""}`}
+        >
           <p>
             <button onClick={onViewDetails}>
               View Details{" "}
